@@ -1,0 +1,109 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #DDA0DD;
+  font-family: sans-serif;
+}
+
+#header-nav {
+  background-color:#4B0082;
+  min-height: 100px;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 0;
+  height: auto;
+}
+
+.navbar-brand h1 {
+  font-size: 1.8em;
+  color: white;
+  text-shadow:  2px 1px 1px #222;
+  line-height: 1;
+  margin: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;  /*to remove underline text*/
+}
+
+#nav-list{
+  margin-top: 10px;
+}
+#nav-list li a{
+  color: whitesmoke;
+  background-color: #800080;
+  border: 4px solid #DDA0DD;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#nav-list li a:hover{
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid white;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+
+#menu-text{
+  font-size: 1.8em;
+  text-shadow:  2px 1px 1px #222;
+  margin-bottom: 30px;
+}
+
+
+#Chicken-box, #Beef-box, #Sushi-box{
+  position: relative;
+  /*max-width: 1200px;*/
+  background-color: #800080;
+  margin-bottom: 25px;
+  padding: 10px 50px;
+}
+
+h2 {
+  font-size: 2.2em;
+}
+.food-description{
+  height: 1000px;
+}
+
+
+
+@media (max-width: 767px) {
+  /*#header-nav{
+    min-height: 70px;
+  }
+*/
+  .navbar-brand {
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+
+  .navbar-brand h1 {
+    font-size: 6vw;   
+    line-height: 1.1;
+    }
+
+  .navbar-header .navbar-toggle {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    clear: none;
+  }
+
+  #home-tiles{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+}
